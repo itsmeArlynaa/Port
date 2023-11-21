@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arlyn Seno</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="main-navbar">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home"><img class="navIcons" src="img/home.png" alt="" data-bs-placement="bottom"
+                data-bs-toggle="tooltip" data-bs-title="Home"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><img class="navIcons" src="img/info.png" alt="" data-bs-placement="bottom"
+                data-bs-toggle="tooltip" data-bs-title="About me"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects"><img class="navIcons" src="img/briefing.png" alt=""
+                data-bs-placement="bottom" data-bs-toggle="tooltip" data-bs-title="My small Projects"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills"><img class="navIcons" src="img/idea-development.png"
+                data-bs-placement="bottom" alt="" data-bs-toggle="tooltip" data-bs-title="My Skills"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><img class="navIcons" src="img/contact.png" alt=""
+                data-bs-placement="bottom" data-bs-toggle="tooltip" data-bs-title="Contact me"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link file" href="resume.html"><img id="cv" src="img/cv.png" alt="" data-bs-placement="bottom"
+                data-bs-toggle="tooltip" data-bs-title="Resume"></a>
+          </li>
+          <li>
+            <label class="switch" data-bs-toggle="tooltip" data-bs-title="Change Theme">
+              <input type="checkbox" id="night-mode-toggle">
+              <span onclick="myFunction()" class="slider round">
+                <i class="sun-icon"><img src="img/sun.png" alt=""></i>
+                <i class="moon-icon"><img src="img/night-mode.png" alt=""></i>
+              </span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="home" class="pt-5 text-center">
+    <div class="row p-5 mb-5 custom-row justify-content-center">
+      <div class="col-lg-12 mx-auto">
+        <h1 class="name">ARLYN SEÑO</h1>
+        <h2 class="title">FRONT-END WEB DEVELOPER</h2>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="about" class="pt-5 text-center">
+    <div class="container">
+      <div class="row p-5 m-3 custom-row justify-content-center">
+        <div class="col-lg-6 mx-auto">
+          <h1 class="aboutme mb-5">👩‍💻 About Me</h1>
+          <p class="about-paragraph">
+            Hi, I'm Arlyn, a passionate and results-driven Front-end Web Developer based in San Jose del Monte, Bulacan.
+            With a strong background in Web Development, I bring a unique blend of skills and expertise to every project
+            I undertake.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img src="img/img.png" alt="" class="clip-svg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="py-5 text-center">
+    <div class="container">
+      <div class="row p-5">
+        <div class="col-lg-12">
+          <h1 class="mb-2">💻 Projects</h1>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center cards">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/counter.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Counter</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, impedit.</p>
+              <a href="counter.html" class="btn btn-primary">View Counter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/calculator.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, cupiditate!</p>
+              <a href="calculator.html" class="btn btn-primary">View Calculator</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/yt.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Youtube Music</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, cupiditate!</p>
+              <a href="google music/youtubemusic.html" class="btn btn-primary">View Youtube Music</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/google.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Google</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, cupiditate!</p>
+              <a href="google clone/google.html" class="btn btn-primary">View Google</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/survey.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Survey Form</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, cupiditate!</p>
+              <a href="calculator.html" class="btn btn-primary">View Survey Form</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/spin.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, cupiditate!</p>
+              <a href="calculator.html" class="btn btn-primary">View Spin the wheel game</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="skills" class="p-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto p-5">
+          <h1>🎯 Skills</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center LanguageiconS">
+        <div class="col-12 col-md-2 mb-4 ">
+          <img src="img/html.png" class="Languageicon" alt="" data-bs-toggle="tooltip" data-bs-title="HTML-5">
+        </div>
+        <div class="col-12 col-md-2 mb-4">
+          <img src="img/css-3.png" alt="" class="Languageicon" alt="" data-bs-toggle="tooltip" data-bs-title="CSS-3">
+        </div>
+        <div class="col-12 col-md-2 mb-4">
+          <img src="img/js.png" alt="" class="Languageicon" alt="" data-bs-toggle="tooltip" data-bs-title="JAVASCRIPT">
+        </div>
+        <div class="col-12 col-md-2 mb-4">
+          <img src="img/php.png" alt="" class="Languageicon" alt="" data-bs-toggle="tooltip" data-bs-title="PHP">
+        </div>
+        <div class="col-12 col-md-2 mb-4">
+          <img src="img/mysql.png" alt="" class="Languageicon" alt="" data-bs-toggle="tooltip" data-bs-title="MYSQL">
+        </div>
+        <div class="col-12 col-md-2 mb-4">
+          <img src="img/bootstrap.png" alt="" class="Languageicon" alt="" data-bs-toggle="tooltip"
+            data-bs-title="BOOTSTRAP">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="p-3 text-center">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-6 mx-auto p-5">
+          <h1>📞 Contact</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center LanguageiconS">
+        <div class="col-12 col-md-3 mb-4">
+          <img src="img/gmail.png" alt="" class="icon">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+          <img src="img/github.png" alt="" class="icon">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+          <img src="img/linkedin.png" alt="" class="icon">
+        </div>
+        <div class="col-12 col-md-3 mb-4">
+          <img src="img/facebook.png" alt="" class="icon">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script>
+
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+</body>
+
+</html>
